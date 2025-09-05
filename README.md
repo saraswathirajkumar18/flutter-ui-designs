@@ -1,16 +1,59 @@
-# flutter_ui_designs
+# Flutter UI Designs
 
-A new Flutter project.
+A collection of mini Flutter projects showcasing different UI layouts and components.  
+This repository is meant for learning, practicing, and showcasing Flutter UI design skills.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots & Code Links
 
-A few resources to get you started if this is your first Flutter project:
+### 🔑 Info Card
+Information page with buttons,text.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Info Card Screenshot](screenshots/info_card.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+👉 [View Code](lib/screens/info_card.dart)
+
+---
+
+### 👤 Profile Card
+Profile card layout with image, name, and details.
+
+![Profile Card Screenshot](screenshots/profile_card.png)
+
+👉 [View Code](lib/screens/profile_card.dart)
+
+---
+
+### 🖥️ Dashboard UI
+A simple dashboard with icons and cards.
+
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+👉 [View Code](lib/screens/dash_board.dart)
+
+---
+
+## 🛠 Tech Stack
+- Flutter (Dart)  
+- Material Design Components  
+- Widgets: `ListView`, `GridView`, `Column`, `Row`, `Card`, `ClipRRect`, etc.  
+
+---
+
+## 🚀 Getting Started
+To run this project locally:  
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/flutter_ui_designs.git
+
+# Navigate to folder
+cd flutter_ui_designs
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
