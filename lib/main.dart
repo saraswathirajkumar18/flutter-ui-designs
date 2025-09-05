@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_designs/screens/dash_board.dart';
 import 'package:flutter_ui_designs/screens/profile_card.dart';
 
 void main() {
@@ -26,6 +27,6 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         //main screen of the app
-        home: ProfileCard());
+        home: DashBoard());
   }
 }

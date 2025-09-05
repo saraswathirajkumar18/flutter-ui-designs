@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_designs/screens/dash_board.dart';
 import 'package:flutter_ui_designs/screens/info_card.dart';
 import 'package:flutter_ui_designs/screens/profile_card.dart';
 import 'package:flutter_ui_designs/screens/task_management_card.dart';
@@ -25,8 +26,8 @@ class HomePage extends StatelessWidget {
       },
       {
         'image': 'assets/images/img2.png',
-        'title': 'Info Card1',
-        'page': () => TaskManagementCard()
+        'title': 'DashBoard',
+        'page': () => DashBoard()
       },
       {
         'image': 'assets/images/img3.png',
